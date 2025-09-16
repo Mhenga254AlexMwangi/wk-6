@@ -1,5 +1,3 @@
-
-
 -- Question 1 🧑‍💼
 -- Get firstName, lastName, email, and officeCode of all employees
 USE sales_db ;
@@ -32,3 +30,4 @@ SELECT
 FROM customers c
 RIGHT JOIN orders o ON c.customerNumber = o.customerNumber
 LIMIT 10;
+
